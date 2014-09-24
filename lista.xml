@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<veiculos>
+ 
+   <veiculo> 
+     <id>1</id>
+     <nome>Clio Authentique</nome>
+     <foto>clio-mini.jpg</foto>
+     <banner>banner-clio.jpg</banner>
+     <selo>selo-clio.png</selo>
+     <condicao>Por: R$ 24.990,00</condicao>
+     <valor>Ou entrada + 60 X de R$449,00</valor>
+      <opcional>
+       <op>Air bag</op>
+       <op>ABS</op>
+       <op>.</op>
+       <op>.</op>
+       <op>.</op>
+      </opcional>
+      <dotz> 5.000</dotz>
+      <sobre>
+O Renault Clio está à venda em três versões, todas equipadas com motor 1.0 16V Hi-Power, que rende 80 cv de potência com etanol e 77 cv com gasolina.
+      </sobre>
+     <juridico>
+Condições válidas para Clio Authentique, 1.0, 16 V 14/14 a partir de R$24.990,00 à vista ou 32% de entrada (R$7.990,00) mais 60 prestações de R$ 449,00. Taxa de juros de 1,29% (a.m.) e 16,62% (a.a.). Custo Efetivo total 1,32% (a.m.) e 21,70% (a.a.). Valor total (Entrada + parcelas) de R$34.930,00. Disponível na modalidade CDC (Crédito Direto ao Consumidor) através da Cia. de Crédito, Financiamento e Investimento RCI BRASIL. Tarifa de Confecção de Cadastro de R$498,00 mais Despesas com Registro de Contrato no valor de R$97,93, referente ao Estado de MG. Seguro de Proteção Financeira (SPF) R$625,25 mais impostos (IOF) R$330,91. Crédito sujeito a análise e aprovação de cadastro. Imagens ilustrativas. Veículo anunciado na cor sólida. Bônus em DOTZ a ser creditado em até trinta dias após a entrega do veículo para o mesmo CPF da nota fiscal. IPVA grátis referente ao ano de 2014. Emplacamento feito na concessionária. Ofertas válidas até 30/09/2014 ou enquanto durar o estoque.
+     </juridico>
+  </veiculo>
+
+
+  <veiculo> 
+     <id>2</id>
+    <nome>Clio Expression</nome>
+     <foto>clio-mini.jpg</foto>
+     <banner>banner-clio-2.jpg</banner>
+     <selo>selo-clio-2.png</selo>
+     <condicao>Por: R$ 29.990,00</condicao>
+     <valor>Ou entrada + 60 X de R$399,00</valor>
+      <opcional>
+       <op>Air Bag</op>
+       <op>ABS</op>
+       <op>Ar Condicionado</op>
+       <op>Direção Hidráulica</op>
+       <op>.</op>
+       <op>.</op>
+      </opcional>
+      <dotz>5.000</dotz>
+      <sobre>
+       Robustez e versatilidade: a tração 4x4 do Renault Duster ajuda você a encarar qualquer desafio.
+      </sobre>
+     <juridico>
+Condições válidas para Clio Expression, 1.0, 16 V 14/15 a partir de R$29.990,00 à vista ou 51% de entrada (R$15.300,00) mais 60 prestações de R$ 399,00. Taxa de juros de 1,38% (a.m.) e 17,88% (a.a.). Custo Efetivo total 1,74% (a.m.) e 23,88% (a.a.). Valor total (Entrada + parcelas) de R$39.240,00. Disponível na modalidade CDC (Crédito Direto ao Consumidor) através da Cia. de Crédito, Financiamento e Investimento RCI BRASIL. Tarifa de Confecção de Cadastro de R$498,00 mais Despesas com Registro de Contrato no valor de R$97,93, referente ao Estado de MG. Seguro de Proteção Financeira (SPF) R$543,18 mais impostos (IOF) R$287,86. Crédito sujeito a análise e aprovação de cadastro. Imagens ilustrativas. Veículo anunciado na cor sólida. Bônus em DOTZ a ser creditado em até trinta dias após a entrega do veículo para o mesmo CPF da nota fiscal. IPVA grátis referente ao ano de 2014. Emplacamento feito na concessionária. Ofertas válidas até 30/09/2014 ou enquanto durar o estoque.
+     </juridico>
+  </veiculo>
+
+
+  <veiculo> 
+     <id>3</id>
+     <nome>Novo Logan</nome>
+     <foto>logan-authentique-mini.jpg</foto>
+     <banner>banner-logan.jpg</banner>
+     <selo>selo-logan.png</selo>
+     <condicao>Zero de taxa, zero de IPVA</condicao>
+     <valor>ZERO DE PARCELAS EM 2014!</valor>
+      <opcional>
+       <op>Air Bag</op>
+       <op>ABS</op>
+       <op>Direção Hidráulica</op>
+       <op>Pintura Metálica</op>
+      </opcional>
+      <dotz>10.000</dotz>
+      <sobre>
+      O Renault Logan se destaca pelo design com linhas dinâmicas e elegantes, seja na carroceria ou nas laterais, que trazem mais aerodinâmica para o modelo.
+      </sobre>
+     <juridico>
+Condições válidas para Novo Logan Expression, 1.0, 16 V 14/14 a partir de R$33.990,00 à vista ou 60% de entrada (R$ 20.394,00 ) mais 12 prestações de R$1.239,23. Taxa de juros de 0% (a.m.) e 0% (a.a.). Custo Efetivo total 1,40%(a.m.) e 18,50% (a.a.). Valor total (Entrada + parcelas) de R$35.264,76. Carência de 120 dias. Disponível na modalidade CDC (Crédito Direto ao Consumidor) através da Cia. de Crédito, Financiamento e Investimento RCI BRASIL. Tarifa de Confecção de Cadastro de R$498,00 mais Despesas com Registro de Contrato no valor de R$97,93, referente ao Estado de MG. Seguro de Proteção Financeira (SPF) R$501,37 mais impostos (IOF) R$180,21. Crédito sujeito a análise e aprovação de cadastro. Imagens ilustrativas. Bônus em DOTZ a ser creditado em até trinta dias após a entrega do veículo para o mesmo CPF da nota fiscal. IPVA grátis referente ao ano de 2014. Emplacamento feito na concessionária. Ofertas válidas até 30/09/2014 ou enquanto durar o estoque.
+     </juridico>
+  </veiculo>
+
+
+
+
+
+  <veiculo> 
+     <id>4</id>
+     <nome>Novo Sandero</nome>
+     <foto>novo-sandero.jpg</foto>
+     <banner>banner-sandero.jpg</banner>
+     <selo>selo-sandero.png</selo>
+     <condicao>Zero de taxa, zero de IPVA</condicao>
+     <valor>ZERO DE PARCELAS EM 2014!</valor>
+      <opcional>
+       <op>Air Bag</op>
+       <op>ABS</op>
+       <op>Ar Condicionado</op>
+       <op>Direção Hidráulica</op>
+       <op>3 anos de garantia</op>
+       <op>Trava Elétrica</op>
+      </opcional>
+      <dotz>10.000</dotz>
+      <sobre>
+      O Renault Sandero possui diversos porta-objetos para trazer mais praticidade aos passageiros. o prazer ao dirigir é priorizado ainda com ajustes nos bancos e na direção.
+      </sobre>
+     <juridico>
+ Condições válidas para Novo Sandero Expression, 1.0, 16 V 14/15 a partir de R$34.990,00 à vista ou 60% de entrada (R$20.994,00 ) mais 12 prestações de R$ 1.274,16. Taxa de juros de 0% (a.m.) e 0% (a.a.). Custo Efetivo total1,39% (a.m.) e 18,29% (a.a.). Valor total (Entrada + parcelas) de R$36.283,92 Carência de 120 dias. Disponível na modalidade CDC (Crédito Direto ao Consumidor) através da Cia. de Crédito, Financiamento e Investimento RCI BRASIL. Tarifa de Confecção de Cadastro de R$498,00 mais Despesas com Registro de Contrato no valor de R$97,93, referente ao Estado de MG. Seguro de Proteção Financeira (SPF) R$515,50 mais impostos (IOF) R$185,29. Crédito sujeito a análise e aprovação de cadastro. Imagens ilustrativas. Veículo anunciado na cor sólida.  Bônus em DOTZ a ser creditado em até trinta dias após a entrega do veículo para o mesmo CPF da nota fiscal. IPVA grátis referente ao ano de 2014. Emplacamento feito na concessionária. Ofertas válidas até 30/09/2014 ou enquanto durar o estoque.
+     </juridico>
+  </veiculo>
+
+
+
+  <veiculo> 
+     <id>5</id>
+     <nome>Fluence Dynamique</nome>
+     <foto>fluence-mini.jpg</foto>
+     <banner>banner-fluence.jpg</banner>
+     <selo>selo-fluence.png</selo>
+     <condicao>Zero de taxa, zero de IPVA</condicao>
+     <valor>ZERO DE PARCELAS EM 2014!</valor>
+      <opcional>
+       <op>Air Bag</op>
+       <op>ABS</op>
+       <op>Som Original</op>
+       <op>Ar Condicionado</op>
+       <op>Direção Hidráulica</op>
+       <op>Travas e Vidros Elétricos </op>
+      </opcional>
+      <dotz>10.000</dotz>
+      <sobre>
+     O Renault Logan se destaca pelo design com linhas dinâmicas e elegantes, seja na carroceria ou nas laterais, que trazem mais aerodinâmica para o modelo.
+      </sobre>
+     <juridico>
+Condições válidas para Fluence Dynamique, 2.0, 14/14 a partir de R$64.990,00 à vista ou 60% de entrada (R$ 38.994,00) mais 12 prestações de R$2.231,99 Taxa de juros de 0% (a.m.) e 0% (a.a.). Custo Efetivo total 1,08% (a.m.) e14,05% (a.a.). Valor total (Entrada + parcelas) de R$66.857,88. Carência de 120 dias. Disponível na modalidade CDC (Crédito Direto ao Consumidor) através da Cia. de Crédito, Financiamento e Investimento RCI BRASIL. Tarifa de Confecção de Cadastro de R$498,00 mais Despesas com Registro de Contrato no valor de R$97,93, referente ao Estado de MG. Seguro de Proteção Financeira (SPF) R$939,44 mais impostos (IOF) R$337,67. Crédito sujeito a análise e aprovação de cadastro. Imagens ilustrativas. Veículo anunciado na cor sólida.  Bônus em DOTZ a ser creditado em até trinta dias após a entrega do veículo para o mesmo CPF da nota fiscal. IPVA grátis referente ao ano de 2014. Emplacamento feito na concessionária. Ofertas válidas até 30/09/2014 ou enquanto durar o estoque.
+     </juridico>
+  </veiculo>
+
+
+</veiculos>

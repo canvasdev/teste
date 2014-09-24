@@ -1,0 +1,189 @@
+button,input,select,textarea {color: #222;}
+html {font-size: 1em; line-height: 1.4;}
+::-moz-selection {background: #b3d4fc;text-shadow: none;}
+::selection { background: #b3d4fc;text-shadow: none;}
+/* A better looking default horizontal rule*/
+hr {display: block;height: 1px;border: 0;border-top: 1px solid #ccc;margin: 1em 0;padding: 0;}
+
+/*Remove the gap between images, videos, audio and canvas and the bottom oftheir containers: h5bp.com/i/440*/
+audio,canvas,img,video {vertical-align: middle;}
+/* Remove default fieldset styles.*/
+fieldset {border: 0; margin: 0; padding: 0;}
+/*Allow only vertical resizing of textareas.*/
+textarea {resize: vertical;}
+
+.transition-1s{-webkit-transition:all 1s; -moz-transition:all 1s; -ms-transition:all 1s; -o-transition:all 1s;}
+.transition-5ms{-webkit-transition:all 0.5s; -moz-transition:all 0.5s; -ms-transition:all 0.5s; -o-transition:all 0.5s;}
+
+/* botoes contato enviado*/
+
+#container-btns{width: 420px; height: 100px; top: 40px; position: absolute; left: 50%; margin-left: -210px;}
+.btn-contato{width: auto; height: auto; position: relative; float:  left; padding: 10px 15px 10px 15px; background-color: #77a800; font-family: Arial, Helvetica, sans-serif; color: #fff; font-size: 12px; border-radius: 10px; cursor: pointer;}
+.btn-contato:hover{background-color: #486600;}
+.btn-contato-b{width: auto; height: auto; position: relative; float:  left; padding: 10px 15px 10px 15px; background-color: #1a9ad3; font-family: Arial, Helvetica, sans-serif; color: #fff; font-size: 12px; border-radius: 10px; cursor: pointer; margin-left: 20px;}
+.btn-contato-b:hover{background-color: #006592;}
+
+#mascara-preload{width: 100%; height: 100%; position: absolute; background-color: #181818; z-index: 999; display: block; overflow: hidden;}
+#txt-preload{width: 100%; height: 40px; top: 50%; margin-top: -20px; color: #fff; position: absolute; font-family:Arial, Helvetica, sans-serif; font-size: 30px; text-align:center; line-height: 12px;}
+
+.chat-btn{width: auto; height: auto; right: 0px; bottom: 30%; position: fixed; z-index: 999999;}
+
+
+/* ==========================================================================
+  Styles of the page start here
+   ========================================================================== */
+
+
+.top-bar{width: 100%; height: 65px; position: absolute; top: 0px; background-color: #f3b700; z-index: 102;}
+.logo-top{width: 550px; height: 50px; left:50%; margin-left:-175px; top: 100px; position: absolute;}
+.logo-client{width: 204px; height: 53px;  position: absolute; left: 0px; background: url(../images/logo-client.jpg); background-size: 204px;}
+.line-break{width: 1px; height: 100%; position: absolute; left: 220px; background-color: #7c7c7c;}
+.text-logo{width: auto; height: auto; left: 230px; top: 8px; position: absolute; font-family: 'bebas_neue_regularregular'; color: #7c7c7c; font-size: 29px; }
+.selo-veiculo{width: 160px; height: 160px; left:50%; margin-left: 320px; top:0px; position:absolute; z-index: 999; background-size: 160px;}
+.selo-veiculo-img{width: 160px; height: 160px; position:absolute; z-index: 999; background-size: 160px;}
+.oferta-condicao{width: 230px; height: 35px; right: 120px; top: 40px; padding-top: 13px; padding-left: 20px; padding-right: 10px; background-color:#ffffff; position: absolute; z-index: -1; font-family: Arial, Helvetica, Sans-serif,; color:#494949; font-size: 16px; -webkit-transform:scale(1.0); -ms-transform:scale(1.0); -o-transform:scale(1.0); -moz-transform:scale(1.0);}
+.valor-oferta-condicao{width: 230px; height: 35px; right: 120px; top:84px; padding-top: 15px; padding-left: 20px; padding-right: 10px; background-color:#168fe0; position: absolute; z-index: -1; font-family: Arial, Helvetica, Sans-serif,; color:#fff; font-size: 14px;}
+.ver-outras-ofertas{width: 170px; border-bottom: 4px solid #424242; height:25px; cursor: pointer; right: 90px; top: 370px; padding-top: 7px; padding-right: 20px; padding-left: 20px; background-color: #80c93e; position: absolute; font-family: Arial, Helvetica, sans-serif; color:#000; font-size: 14px; border-radius: 10px;}
+#car-roullet{width: 100%; height: 428px; position: absolute; top:180px; background-color: #fff; overflow: hidden; background-color: #fff; z-index: 100;}
+#container-blocos{width:13800px; height: 430px; position: absolute; left: 50%; margin-left: -2400px; }
+.bloco-veiculo{width: 960px; height: 430px; position:relative; float:left;}
+.bg-form{width: 340px; height: 428px; left:50%; margin-left: -500px;  background-repeat: no-repeat;  position: absolute; z-index: 999; background-color:#074f77; background-size: 363px;}
+.arrow-form{width: 54px; height: 54px; left:-15px; top: 18px; position: absolute;  background: url(../images/arrow-form.png); background-size: 54px; z-index: 9999;}
+.chamada-form{width: 300px; height: auto; font-family: Arial, Helvetica, sans-serif; left: 50%; margin-left: -120px; top: 20px; color: #fff; position: absolute; line-height: 15px; text-transform: uppercase; font-size: 17px;}
+.tarja-chamada{width: 100%; height: 80px; position: absolute; top: 0px; background-color: #4ca100; z-index: 1; }
+.subtitle{width: 100%; height: 35px; background-color: #fff; top: 608px; padding-top: 10px; position: absolute; box-shadow:0px 0px 2px 0px #aeaeae; color:#717171; font-size: 18px; text-align: center;  z-index: 1000; }
+
+.controle-left-slider{width: 24px; height: 49px; display: none; position: absolute; left: 50%; margin-left: -480px; top: 750px; background: url(../images/left-car.png); z-index: 9; background-size: 24px; cursor: pointer; opacity: 0.2;}
+.controle-rigth-slider{width: 24px; height: 49px; display: none; position: absolute; left: 50%; margin-left: 465px; top: 750px; background: url(../images/rigth-car.png); z-index: 9; background-size: 24px; cursor: pointer; opacity: 1.0}
+.container-geral-veiculos{width: 910px; height: 220px; left: 50%; margin-left:-455px; top: 674px; position: absolute; overflow: hidden; display: block;  }
+.container-veiculos{width: 2000px; height: 200px; left: 455px; margin-left:-480px; position: relative;   }
+.container-veiculo-oferta{width: 180px; height: 200px; position: relative; float:left; cursor: pointer; margin-left: 10px;}
+.margem-direita{width: 1px; height: 150px; top: 50%; margin-top: -75px; right: 0px; background-color: #656565; position: absolute;}
+.nome-veiculo-oferta{width: 190px; height: auto; position:  relative; float: left; font-family: Arial, Helvetica, Sans-serif; color: #666666; font-size: 15px; text-align: center;}
+.foto-veiculo-oferta{width: 190px; height: 110px; position: relative; float: left;  margin-top:30px;}
+.btn-oferta{width: 150px; height: 32px; left: 50%; margin-left: -75px; background-color: #0b84bb; position:  relative; float:left; margin-top: 10px; cursor: pointer;}
+.btn-oferta:hover{box-shadow:0px 0px 2px 0px #2d2d2d; background-color:#086691;}
+.btn-oferta-ornamento{width: 150px; height: 16px; bottom: 0px; position: absolute; background-color: #0770a0;}
+.btn-oferta-txt{width: 150px; height: auto; top: 8px; position: absolute; font-family: Arial, Helvetica, Sans-serif; font-size: 14px;  text-align: center; color: #fff;}
+
+.comparativo-container{width: 960px; display: none; height: 500px; position: absolute; left: 50%; margin-left: -480px; top: 950px; }
+.title-comparativos{left: 10px; top: 10px; position: absolute; font-size: 17px; color: #666; font-family: Arial, Helvetica, sans-serif;}
+.btn-por-parcelas{width: auto; height: auto; padding: 5px 10px 5px 10px; background-color: #ffbe3b; position: absolute; font-size: 12px; color: #fff; left:200px; top: 10px; cursor: pointer;}
+.btn-por-bonus{width: auto; height: auto; padding: 5px 10px 5px 10px; background-color: #5e5e5e; position: absolute; font-size: 12px; color: #fff; left:325px; top: 10px; cursor: pointer;}
+
+.top-bar-comparativo{width: 960px; height: 45px; margin-top: 50px; position: relative; float: left; background-color:#335684; border-radius: 10px 10px 0px 0px;}
+.line-comparativo{width: 1px; height: 30px; top: 7px; background-color: #fff; position: absolute;}
+.title-modelo{width: auto; height: auto; top: 13px; left: 10px; font-family: Arial, Helvetica, sans-serif; color:#fff; text-transform: uppercase; position: absolute;}
+.a{left: 200px;}
+.b{left: 360px;}
+.c{left: 510px;}
+.d{left: 640px;}
+.parcela-a{width: auto; height: auto; top: 13px; left: 240px; font-family: Arial, Helvetica, sans-serif; color: #fff; position: absolute;}
+.parcela-b{width: auto; height: auto; top: 13px; left: 400px; font-family: Arial, Helvetica, sans-serif; color: #fff; position: absolute;}
+.parcela-c{width: auto; height: auto; top: 13px; left: 540px; font-family: Arial, Helvetica, sans-serif; color: #fff; position: absolute;}
+.parcela-d{width: auto; height: auto; top: 13px; left: 710px; font-family: Arial, Helvetica, sans-serif; color: #fff; position: absolute;}
+.faixa-veiculo{width: 960px; height: 50px; position: relative; float: left; background-color: #f5f5f5;}
+.faixa-nome-veiculo{width: 190px; height: 27px; padding: 13px 0px 10px 10px; position:absolute; left: 0px; background-color:#353535; color: #fff; font-size: 17px;}
+.faixa-nome-veiculo-b{width: 190px; height: 27px; padding: 13px 0px 10px 10px; position:absolute; left: 0px; background-color:#4d4d4d; color: #fff; font-size: 17px;}
+.indicador-clio{width: 250px; height: 4px; top: 25px; position: absolute; left: 200px; background-color: #f3b700;}
+.indicador-sandero{width: 100px; height: 4px; top: 25px; position: absolute; left: 200px; background-color: #f3b700;}
+.indicador-logan{width: 600px; height: 4px; top: 25px; position: absolute; left: 200px; background-color: #f3b700;}
+.indicador-duster{width: 380px; height: 4px; top: 25px; position: absolute; left: 200px; background-color: #f3b700;}
+.indicador-fluence{width: 380px; height: 4px; top: 25px; position: absolute; left: 200px; background-color: #f3b700;}
+
+.boxes{width: 960px; height: auto; position: relative; float: left; left:50%; margin-left: -480px; margin-top: 950px;}
+.box-interno{width: 460px; height: auto; position: relative; float: left; margin-left: 10px; margin-right: 10px;}
+.title-box{width: 460px; height: 40px; padding-top: 12px; position: relative; float: left; background-color: #f2f2f2; font-family: Arial, Helvetica, sans-serif; color: #838383; font-size: 20px; text-align: center;}
+.conteudo-box{width: 460px; height: auto; position: relative; float: left; font-family: Arial, Helvetica, sans-serif; color: #666; font-size: 14px; margin-top: 10px; margin-bottom: 20px;}
+.conteudo-box-regulamento{width: 460px; height: auto; position: relative; float: left; font-family: Arial, Helvetica, sans-serif; color: #666; font-size: 14px; margin-top: 10px; margin-bottom: 20px;}
+
+.rodape{width: 100%; height:60px; position: relative; float: left; margin-top: 30px; background-color: #2e2e2e; }
+.logo-rodape{width: 150px; height: 60px; position: absolute; left: 50%; margin-left: -75px; background: url(../images/logo-rodape.png); background-size: 150px;}
+
+/*juridicos*/
+.juridico-id1{display: none;}
+.juridico-id2{display: none;}
+.juridico-id3{display: none;}
+.juridico-id4{display: none;}
+.juridico-id5{display: none;}
+.juridico-id6{display: none;}
+.juridico-id7{display: none;}
+.juridico-id8{display: none;}
+.juridico-id9{display: none;}
+.juridico-id10{display: none;}
+
+
+/*formulario */
+.inputall{width: 250px; height: 42px; top:380px; z-index:3; position: absolute;}
+.inputname{position: absolute; width: 207px; height: 42px; top:100px; left: 70px;}
+.inputemail{position: absolute; width: 120px; height: 42px; top:150px; left: 70px;}
+.inputtel{position: absolute; width: 201px; height: 42px; top: 200px; left: 70px;}
+.inputtxtarea{position: absolute;width: 336px;height: 190px; top:250px; left: 70px;}
+
+#selectcon{position: absolute; top:340px; width: 210px; height: 25px; left: 70px; overflow: hidden; border: 1px solid #fff; border-radius: 5px; z-index: 99; }
+.styled-select select { background: transparent; width: 695px; padding: 2px; font-size: 14px; line-height: 1; border: 0; border-radius: 0; height: 25px; -webkit-appearance: none; font-family:Arial, Helvetica, sans-serif; color:#fff; background-color: #fff; }
+.bg-form input {width:290px; height: 35px; padding:7px;font-family:Arial, Helvetica, sans-serif;font-size:14px; color:#000; display:block; border:0px solid #fff; background-color:#fff; border-radius: 5px; }
+.bg-form span { font:12px Arial, Helvetica, sans-serif;font-style:inherit; color:#fff; display:block;}
+.bg-form textarea {width:378px; padding:6px; font:14px Arial, Helvetica, sans-serif; color:#000; border:1px solid #fff;background-color:#fff;display:block; border-radius: 5px;}
+.bg-form input:focus {  background-color:#ffecb3; border:1px solid #fff;}
+.bg-form textarea:focus {  background-color:#ffecb3; border:1px solid #fff;}
+.bg-form .btn {width: 214px; height: auto; left: 70px;  position:  absolute; background-color:#ffcc00; font-size:13px; font-style:bold; color: #000; font-family: Arial, Helvetica, sans-serif; text-align: center; text-transform: uppercase; padding: 8px 0px 5px 0px; border-bottom: 4px solid #424242; -webkit-transition:all 0.8s; -ms-transition:all 0.8s; -moz-transition:all 0.8s; -o-transition:all 0.8s; cursor: pointer; }
+.bg-form .btn:hover { opacity:0.6;}
+
+/*Demais ofertas */
+.container-ofertas-secundarias{width: 100%; height:250px; position: absolute; top:400px; background-color: #272727; z-index: 99;}
+.limite-ofertas{width: 960px; height: 250px; position: absolute; left: 50%; margin-left: -480px;}
+.outros-veiculos {width: 214px; height: 25px; top:100px; left: 70px; border-radius: 10px;  position:  absolute; background-color:#807777; font-size:16px; font-style:bold; color: #fff; font-family: Arial, Helvetica, sans-serif; text-align: center; text-transform: uppercase; padding: 8px 0px 5px 0px; border-bottom: 4px solid #424242; -webkit-transition:all 0.8s; -ms-transition:all 0.8s; -moz-transition:all 0.8s; -o-transition:all 0.8s; cursor: pointer; cursor: pointer; }
+.outros-veiculos:hover{background-color: #335684;}
+.box-outras-ofertas{width: 270px; height: 180px; position: relative; float: right; margin-left: 50px; margin-top: 35px; background-color: #2f2f2f; box-shadow:0px 0px 20px rgba(0, 0, 0, 0.3);}
+.title-box-outras-ofertas{width: 270px; text-transform: uppercase; height: 30px; position: relative; float: left; padding-top: 10px; font-family: Arial, Helvetica, sans-serif; color: #f0ad57; font-size: 16px; text-align: center; background-color: #1c1c1c; margin-bottom: 10px;}
+.title-box-outras-ofertas-valor{width: 270px; height: 30px; position: relative; float: left; padding-top: 10px; font-family: Arial, Helvetica, sans-serif; color: #fff; font-size: 16px; text-align: center; background-color: #474747;}
+.op{width: 100%; height:auto; float:  left; position: relative; font-family: Arial, Helvetica, sans-serif; color: #fff; font-size: 12px; padding-left: 40px; margin-top:3px;}
+.sobre-veiculo{width: 220px; height: auto; top: 50px; position: absolute; font-size: 12px; font-family: Arial, Helvetica, sans-serif; left: 50%; margin-left: -110px; color: #fff; }
+
+.opcional1{display: none;}
+.opcional2{display: none;}
+.opcional3{display: block;}
+.opcional4{display: none;}
+.opcional5{display: none;}
+.opcional6{display: none;}
+.opcional7{display: none;}
+.opcional8{display: none;}
+.opcional9{display: none;}
+.opcional10{display: none;}
+
+.marcador{width: 9px; height: 14px; position:  absolute; left: 20px; background-image: url(../images/marcador.png);}
+.splash{width: 270px; height: 100px; position: relative; float: left; background:}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+   /*Image replacement*/
+.ir {background-color: transparent; border: 0; overflow: hidden; /* IE 6/7 fallback */ *text-indent: -9999px;}
+.ir:before {content: ""; display: block;width: 0;height: 150%;}
+/* Hide from both screenreaders and browsers: h5bp.com/u*/
+.hidden {display: none !important;visibility: hidden;}
+/*Hide only visually, but have it available for screenreaders: h5bp.com/v*/
+.visuallyhidden {border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px;}
+/*Extends the .visuallyhidden class to allow the element to be focusablewhen navigated to via the keyboard: h5bp.com/p*/
+.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto;}
+/*Hide visually and from screenreaders, but maintain layout*/
+.invisible {visibility: hidden;}
+.clearfix:before,
+.clearfix:after {content: " "; /* 1 */display: table; /* 2 */}
+.clearfix:after {clear: both;}
+.clearfix {*zoom: 1;}
+
+
+@font-face {
+    font-family: 'bebas_neue_regularregular';
+    src: url('../fonts/bebasneue_regular-webfont.eot');
+    src: url('../fonts/bebasneue_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bebasneue_regular-webfont.woff') format('woff'),
+         url('../fonts/bebasneue_regular-webfont.ttf') format('truetype'),
+         url('../fonts/bebasneue_regular-webfont.svg#bebas_neue_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

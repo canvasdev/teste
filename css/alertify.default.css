@@ -1,0 +1,71 @@
+/**
+ * Default Look and Feel
+ */
+.alertify,
+.alertify-log {
+	font-family: sans-serif;
+	color:#33373E;
+}
+.alertify {
+	height:150px;
+	background: #FFF;
+	-webkit-background-clip: padding;     /* Safari 4? Chrome 6? */
+	   -moz-background-clip: padding;     /* Firefox 3.6 */
+	        background-clip: padding-box; /* Firefox 4, Safari 5, Opera 10, IE 9 */
+}
+	.alertify-text {
+		border: 1px solid #CCC;
+		padding: 10px;
+		border-radius: 4px;
+		font-size:50%;
+	}
+	.alertify-button {
+		border-radius: 4px;
+		color: #FFF;
+		font-weight: bold;
+		padding: 6px 15px;
+		text-decoration: none;
+
+
+	}
+	.alertify-button:hover,
+	.alertify-button:focus {
+		outline: none;
+
+	}
+	.alertify-button:focus {
+
+	}
+	.alertify-button:active {
+		position: relative;
+		
+	}
+		.alertify-button-cancel,
+		.alertify-button-cancel:hover,
+		.alertify-button-cancel:focus {
+			background-color: #2F72B4;
+			border: 1px solid #2F72B4;
+		}
+		.alertify-button-ok,
+		.alertify-button-ok:hover,
+		.alertify-button-ok:focus {
+			background-color: #2F72B4;
+			border: 1px solid #2F72B4;
+		}
+
+.alertify-log {
+	background: #1F1F1F;
+	background: rgba(0,0,0,.9);
+	padding: 15px;
+	border-radius: 4px;
+	color: #FFF;
+	text-shadow: -1px -1px 0 rgba(0,0,0,.5);
+}
+	.alertify-log-error {
+		background: #FE1A00;
+		background: rgba(254,26,0,.9);
+	}
+	.alertify-log-success {
+		background: #5CB811;
+		background: rgba(92,184,17,.9);
+	}
